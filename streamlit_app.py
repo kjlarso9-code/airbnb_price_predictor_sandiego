@@ -13,7 +13,7 @@ st.title("🏡 Airbnb Price Predictor – San Diego")
 @st.cache_resource
 def load_model():
     # ⬇️ Replace YOUR_FILE_ID_HERE with the real Google Drive file ID
-    url = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_HERE"
+    url = "https://drive.google.com/uc?export=download&id=1QMvBdSAZzPSLc2PE9SfN4lSOXlyHLy7R"
 
     response = requests.get(url)
     model_bytes = BytesIO(response.content)
